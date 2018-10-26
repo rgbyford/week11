@@ -11,11 +11,11 @@ for (let i = 0; i < args; i++) {
     }
 }
 if (sShowActor === "show") {
-//    findShow (sItemName);
+    findShow (sItemName);
     console.log (`Show: ${sItemName}`)
 }
 else if (sShowActor === 'actor') {
-//    findPerson (sItemName);
+    findPerson (sItemName);
     console.log (`Actor: ${sItemName}`)
 }
 else {
